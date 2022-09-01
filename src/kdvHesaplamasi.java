@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+
+public class kdvHesaplamasi {
+// kdv  tutarı %18 olacak
+
+    public static void main(String[] args) {
+
+        int urun1;
+        Scanner inp = new  Scanner(System.in);
+        System.out.print("kdv hesaplamak için urun1 fiyatını giriniz: ");
+        urun1 = inp.nextInt();
+
+        double  islem = (urun1<= 1000 ) ?    urun1*118/100  : urun1*108/100 ;
+
+        System.out.print("kdvli tutarınız: " + islem);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+}
