@@ -12,8 +12,10 @@ public class kdvHesaplamasi {
         urun1 = inp.nextInt();
 
         double  islem = (urun1<= 1000 ) ?    urun1*118/100  : urun1*108/100 ;
+        double tutar = (urun1 <=1000) ?     urun1*18/100  : urun1*8/100 ;
 
-        System.out.print("kdvli tutarınız: " + islem);
+        System.out.println("kdvli tutarınız: " + islem);
+        System.out.println("kdv tutaro : " + tutar);
 
 
 
