@@ -6,7 +6,7 @@ public class kdvHesaplamasi {
 
     public static void main(String[] args) {
 
-        int urun1;
+        double urun1;
         Scanner inp = new  Scanner(System.in);
         System.out.print("kdv hesaplamak için urun1 fiyatını giriniz: ");
         urun1 = inp.nextInt();
