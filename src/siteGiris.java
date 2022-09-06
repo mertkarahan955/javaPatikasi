@@ -12,7 +12,7 @@ public class siteGiris {
         System.out.print("şifreniz  : ");
         password = inp.nextLine();
 
-        if (userName.equals("mertkarahan955") && password.equals("Anan311905")) {
+        if (userName.equals("mertkarahan955") && password.equals("sifre123")) {
 
             System.out.println("giriş başarılı sayfaya yönelndiriliyorsunuz!!");
 
@@ -26,7 +26,7 @@ public class siteGiris {
                    if(secim.equals("E")){
                        System.out.println("yeni kullanıcı adınızı girebilirsiniz");
                        newU = inp.nextLine();
-                       if (newU.equals(newU) && password.equals("Anan311905")) {
+                       if (newU.equals(newU) && password.equals("sifre123")) {
                            System.out.println("giriş doğru siteye yönlendiriliyorsunuz ");
 
 
@@ -49,7 +49,7 @@ public class siteGiris {
 
                 }
 
-            } else if (!(password.equals("Anan311905"))) {
+            } else if (!(password.equals("sifre123"))) {
                 System.out.print("Şifreniz yanlış!! ");
                 System.out.println("şifrenizi değiştirmek ister misiniz ? E/H ");
                 choice = inp.nextLine();
