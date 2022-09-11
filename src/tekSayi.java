@@ -15,7 +15,7 @@ import java.util.Scanner;
                     total = +n;
                 }
 
-         }while(n>0);
+         }while(n % 2 == 0);
 
          System.out.println("Toplam : " + total);
 
